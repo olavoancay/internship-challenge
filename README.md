@@ -15,42 +15,41 @@ Para executar este projeto localmente, você precisará das seguintes ferramenta
 
 Siga estas etapas para configurar o ambiente de desenvolvimento:
 
-#### Abra o terminal, cmd ou powershell
+#### 1. Abra o terminal, cmd ou powershell
 
-#### Clone este repositório em sua máquina local: 
+#### 2. Clone este repositório em sua máquina local: 
 `git clone https://github.com/olavoancay/internship-challenge.git`
 
-#### Navegue até o diretório backend do projeto: 
+#### 3. Navegue até o diretório backend do projeto: 
 `cd internship-challenge/backend/calcula-mmc`
 
-#### Crie um ambiente virtual para o Django: 
+#### 4. Crie um ambiente virtual para o Django: 
 `python -m venv venv`
 
-#### Ative o ambiente virtual:
+#### 5. Ative o ambiente virtual:
 
-No Windows: 
+  No Windows: 
 `venv\Scripts\activate`
 
-No macOS/Linux: 
+  No macOS/Linux: 
 `source venv/bin/activate`
 
-#### Instale as dependências: 
+#### 6. Instale as dependências: 
 `pip install -r requirements.txt`
 
-#### Navegue até o diretório calcula mmc 
+#### 7. Navegue até o diretório calcula mmc 
 `cd calcula-mmc`
 
-#### Inicie o servidor de desenvolvimento do backend: 
+#### 8. Inicie o servidor de desenvolvimento do backend: 
 `python manage.py runserver`
 
-
-#### Abra um novo terminal e navegue até o diretório frontend 
+#### 9. Abra um novo terminal e navegue até o diretório frontend 
 `cd ./frontend`
 
-#### Instale as dependências do frontend: 
+#### 10. Instale as dependências do frontend: 
 `npm install`
 
-#### Inicie o servidor de desenvolvimento do frontend: 
+#### 11. Inicie o servidor de desenvolvimento do frontend: 
 `npm start`
 
 ## Utilização
